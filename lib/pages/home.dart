@@ -71,7 +71,16 @@ class _HomeState extends State<Home> {
                 );
               },
             )
-            : CircularProgressIndicator();
+            : Column(
+              children: [
+                SizedBox(height: 20),
+                Center(
+                  child: CircularProgressIndicator(
+                    valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
+                  ),
+                ),
+              ],
+            );
       },
     );
   }
