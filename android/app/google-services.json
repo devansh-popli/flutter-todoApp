@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "860153483862",
+    "project_id": "todoapp-c455a",
+    "storage_bucket": "todoapp-c455a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860153483862:android:7c35ff687fe1eddadce1f7",
+        "android_client_info": {
+          "package_name": "com.example.pizzeria"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIR1QrBakXjG-B4F9GdcGfsoLPJxBgkfM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
