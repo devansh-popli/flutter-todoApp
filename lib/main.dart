@@ -68,7 +68,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: isLoggedIn ? Home(userData: user, token: token!) : const Login(),
+      home: isLoggedIn ? Home(userData: user, token: token) : const Login(),
     );
   }
 }
