@@ -33,7 +33,7 @@ class _RegisterState extends State<Register> {
                   ),
                   boxShadow: [BoxShadow(blurRadius: 20, color: Colors.black)],
                 ),
-                height: MediaQuery.of(context).size.height * 0.7,
+                height: MediaQuery.of(context).size.height * 0.8,
                 width: MediaQuery.of(context).size.width,
                 child: Column(
                   children: [
