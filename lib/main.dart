@@ -2,13 +2,10 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:pizzeria/pages/home.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:pizzeria/pages/login.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
   SharedPreferences prefs = await SharedPreferences.getInstance();
   String? tokenJson = prefs.getString('authToken');
   String? userJson = prefs.getString('user');
