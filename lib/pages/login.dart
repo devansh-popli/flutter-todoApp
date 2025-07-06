@@ -34,7 +34,7 @@ class _LoginState extends State<Login> {
                   ),
                   boxShadow: [BoxShadow(blurRadius: 20, color: Colors.black)],
                 ),
-                height: MediaQuery.of(context).size.height * 0.7,
+                height: MediaQuery.of(context).size.height * 0.75,
                 width: MediaQuery.of(context).size.width,
                 child: Column(
                   children: [
